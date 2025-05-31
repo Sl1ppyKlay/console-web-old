@@ -1,0 +1,1984 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 21, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 25, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+html {
+  height: 100%;
+}
+
+/* line 28, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 31, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 37, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 42, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 13, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+body,
+html {
+  overflow-x: clip;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* line 20, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 25, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.main-background {
+  height: 100%;
+  background: linear-gradient(180deg, rgba(250, 250, 250, 0.15) 8%, rgba(255, 255, 255, 0.15) 68%, rgba(252, 182, 0, 0.15) 99%);
+}
+
+/* line 35, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu {
+  background: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  height: 95px;
+  width: 100%;
+}
+
+/* line 40, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 46, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__header {
+  padding-top: 22px;
+}
+
+/* line 49, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list {
+  position: relative;
+  right: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 54, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list:hover {
+  cursor: pointer;
+}
+
+/* line 57, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list-item {
+  padding-right: 84px;
+  padding-top: 40px;
+}
+
+/* line 60, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list-item a {
+  transition: 0.3s ease;
+}
+
+/* line 63, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list-item a:hover {
+  color: #757575;
+}
+
+/* line 66, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list-item:nth-child(2) {
+  padding-right: 0;
+}
+
+/* line 69, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list-item:last-child {
+  padding-right: 10px;
+  padding-top: 37px;
+  display: none;
+}
+
+/* line 74, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__list-item a {
+  font-family: 'Podkova', serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 82, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__img:hover {
+  cursor: pointer;
+}
+
+/* line 85, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile {
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+/* line 92, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-nav-container {
+  position: relative;
+  width: 540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 99, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-block {
+  padding: 22px 18px 0 0;
+}
+
+/* line 102, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-img {
+  width: 26px;
+}
+
+/* line 105, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-list {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+/* line 110, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-list a:hover {
+  cursor: pointer;
+}
+
+/* line 113, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-list-item {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* line 117, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-list-item-one-line {
+  border: none;
+  position: absolute;
+  top: 77px;
+  left: 17.5px;
+  width: 55px;
+  border-bottom: 2px solid;
+}
+
+/* line 125, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-list-item-two-line {
+  border: none;
+  position: absolute;
+  top: 77px;
+  left: 181px;
+  width: 55px;
+  border-bottom: 2px solid;
+}
+
+/* line 133, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-list-item a {
+  font-family: 'Rubik Mono One', monospace;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 142, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-menu__mobile-star {
+  position: absolute;
+  top: -20px;
+  left: -83px;
+  width: 413px;
+  z-index: -1;
+}
+
+/* line 152, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.mobile-background {
+  background: linear-gradient(180deg, white 63.5%, #ffe762 100%);
+}
+
+/* line 160, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.nav-position {
+  z-index: 100;
+  position: sticky;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* line 169, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page {
+  min-height: 760px;
+  margin-bottom: 90px;
+}
+
+/* line 172, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page__edit-block {
+  padding-top: 225px;
+  padding-left: 63px;
+}
+
+/* line 177, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-left__wrapper {
+  position: relative;
+}
+
+/* line 180, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-left__text {
+  position: relative;
+  z-index: 1;
+  width: 430px;
+}
+
+/* line 186, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-left__main-text h1 {
+  font-size: 100px;
+  font-family: 'Rubik Mono One', monospace;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  line-height: 60px;
+}
+
+/* line 192, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-left__main-text span {
+  display: block;
+}
+
+/* line 196, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-left__second-text {
+  bottom: 10px;
+}
+
+/* line 198, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-left__second-text h2 {
+  font-size: 60px;
+  font-family: 'Podkova', serif;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+}
+
+/* line 206, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-left__star {
+  position: absolute;
+  top: -105px;
+  left: -106px;
+}
+
+/* line 214, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-right__wrapper {
+  position: relative;
+}
+
+/* line 217, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.one-page-right__img {
+  position: absolute;
+  top: -426px;
+  left: 560px;
+}
+
+/* line 225, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page {
+  min-height: 720px;
+}
+
+/* line 227, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__wrapper {
+  position: relative;
+}
+
+/* line 230, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__star {
+  position: absolute;
+  top: -47px;
+  left: 370px;
+}
+
+/* line 235, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__center-text {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+/* line 244, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__main-text, .two-page__second-text {
+  margin-bottom: -13px;
+}
+
+/* line 248, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__main-text h1 {
+  font-size: 60px;
+  font-family: 'Rubik Mono One', monospace;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 253, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__second-text h2 {
+  font-size: 30px;
+  font-family: 'Podkova', serif;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* line 258, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__all-window {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* line 262, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__all-window p {
+  font-size: 20px;
+  font-family: 'Podkova', serif;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* line 268, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__one-window {
+  position: relative;
+}
+
+/* line 271, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__two-window {
+  position: relative;
+}
+
+/* line 274, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__three-window {
+  position: relative;
+}
+
+/* line 277, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__img-three {
+  padding-top: 30px;
+}
+
+/* line 280, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__description-text-one {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 286, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__description-text-two {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 292, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.two-page__description-text-three {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 300, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page {
+  min-height: 500px;
+}
+
+/* line 302, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 307, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-block {
+  position: relative;
+  background: white;
+  border-radius: 25px;
+  width: 546px;
+  height: 310px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.25);
+  top: 20px;
+}
+
+/* line 316, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-people {
+  position: absolute;
+  left: 42px;
+  top: 28px;
+}
+
+/* line 321, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-order {
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Rampart One', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 330, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-social {
+  position: absolute;
+  left: 264px;
+  top: 200px;
+}
+
+/* line 334, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-social-item {
+  padding-right: 11px;
+}
+
+/* line 336, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-social-item:last-child {
+  padding: 0px;
+}
+
+/* line 341, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-description {
+  position: absolute;
+  top: 87.6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 295px;
+  height: 36px;
+}
+
+/* line 348, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__left-description p {
+  font-family: 'Podkova', serif;
+  font-size: 12px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* line 356, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 362, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__form p input[type='submit'] {
+  font-family: 'Podkova', serif;
+  font-size: 14px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* line 368, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__form-name {
+  margin-bottom: 20px;
+}
+
+/* line 371, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__form-email {
+  margin-bottom: 20px;
+}
+
+/* line 375, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__form-send-input {
+  border: none;
+  background: #ffd700;
+  border-radius: 25px;
+  width: 142px;
+  height: 36px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: 'Podkova', serif;
+  transition: background 0.4s ease;
+}
+
+/* line 384, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__form-send-input:hover {
+  background: white;
+}
+
+/* line 391, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-block {
+  position: relative;
+  padding-top: 0px;
+}
+
+/* line 396, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-img-one {
+  position: absolute;
+  top: -46px;
+  right: 46px;
+}
+
+/* line 401, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-img-two {
+  position: absolute;
+  top: 192px;
+  left: 85px;
+}
+
+/* line 406, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-img-three {
+  display: none;
+}
+
+/* line 410, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-text {
+  position: relative;
+  z-index: 1;
+  padding-right: 50px;
+}
+
+/* line 414, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-text-main {
+  font-size: 60px;
+  font-family: 'Rubik Mono One', monospace;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5px;
+}
+
+/* line 420, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-text-second {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Rubik Mono One', monospace;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 5px;
+}
+
+/* line 427, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.three-page__right-text-third {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Rubik Mono One', monospace;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* line 437, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.all-form-input {
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 325px;
+  height: 36px;
+  padding: 0 15px;
+}
+
+/* line 445, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+.all-form-input:hover {
+  outline: 1px solid #ffd700;
+}
+
+/* line 450, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+footer {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 457, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+footer p {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  font-family: 'Podkova', serif;
+}
+
+@media (max-width: 1199px) {
+  /* line 469, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .container {
+    width: 960px;
+  }
+  /* line 474, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__container {
+    width: 960px;
+  }
+  /* line 477, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item {
+    padding-top: 42px;
+  }
+  /* line 479, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item a {
+    font-size: 20px;
+  }
+  /* line 484, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page {
+    min-height: 500px;
+    margin-bottom: 90px;
+  }
+  /* line 487, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page__edit-block {
+    padding-top: 187px;
+    padding-left: 66px;
+  }
+  /* line 492, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__text {
+    width: 343px;
+  }
+  /* line 496, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__main-text h1 {
+    font-size: 80px;
+    line-height: 45px;
+  }
+  /* line 502, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__second-text h2 {
+    font-size: 50px;
+  }
+  /* line 506, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__star {
+    width: 500px;
+    top: -87px;
+    left: -74px;
+  }
+  /* line 514, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-right__img {
+    width: 490px;
+    top: -364px;
+    left: 418px;
+  }
+  /* line 522, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page {
+    min-height: 550px;
+  }
+  /* line 524, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__star {
+    width: 400px;
+    top: -38px;
+    left: 264px;
+  }
+  /* line 529, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__main-text h1 {
+    font-size: 60px;
+  }
+  /* line 532, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__second-text h2 {
+    font-size: 30px;
+  }
+  /* line 535, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-one {
+    width: 270px;
+    padding-top: 22px;
+  }
+  /* line 539, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-two {
+    width: 270px;
+  }
+  /* line 542, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-three {
+    width: 270px;
+    padding-top: 30px;
+  }
+  /* line 546, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-one {
+    top: 100%;
+    left: 50%;
+  }
+  /* line 550, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-two {
+    top: 100%;
+    left: 50%;
+  }
+  /* line 554, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-three {
+    width: 185px;
+    top: 100%;
+    left: 55%;
+  }
+  /* line 561, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page {
+    min-height: 325px;
+  }
+  /* line 564, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-wrapper {
+    padding-left: 40px;
+  }
+  /* line 567, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-block {
+    width: 420px;
+    height: 247px;
+  }
+  /* line 571, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-background {
+    width: 420px;
+  }
+  /* line 574, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-people {
+    width: 45px;
+    left: 17px;
+    top: 10px;
+  }
+  /* line 579, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-order {
+    font-size: 28px;
+  }
+  /* line 582, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social {
+    left: 182px;
+    top: 164px;
+  }
+  /* line 585, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item {
+    padding-right: 9px;
+  }
+  /* line 586, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item img {
+    width: 25px;
+  }
+  /* line 592, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description {
+    top: 89.5%;
+  }
+  /* line 594, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description p {
+    font-size: 11px;
+  }
+  /* line 599, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form {
+    top: 52%;
+    left: 50%;
+  }
+  /* line 603, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form p input[type='submit'] {
+    font-size: 15px;
+  }
+  /* line 608, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form-send-input {
+    width: 103px;
+    height: 27px;
+  }
+  /* line 615, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-block {
+    padding-left: 24px;
+  }
+  /* line 619, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-one {
+    width: 400px;
+    top: -33px;
+    right: 38px;
+  }
+  /* line 624, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-two {
+    width: 140px;
+    top: 140px;
+    left: 78px;
+  }
+  /* line 630, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text {
+    padding-right: 50px;
+  }
+  /* line 632, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-main {
+    font-size: 45px;
+  }
+  /* line 635, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-second {
+    font-size: 30px;
+  }
+  /* line 638, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-third {
+    font-size: 45px;
+  }
+  /* line 645, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .all-form-input {
+    width: 290px;
+    height: 27px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 653, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .container {
+    width: 800px;
+  }
+  /* line 657, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu {
+    height: 72px;
+  }
+  /* line 659, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__container {
+    width: 800px;
+  }
+  /* line 662, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__header {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  /* line 666, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item {
+    padding-top: 32px;
+  }
+  /* line 668, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item:last-child {
+    padding-top: 25px;
+  }
+  /* line 671, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item a {
+    font-size: 18px;
+  }
+  /* line 676, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page {
+    min-height: 500px;
+    margin-bottom: 90px;
+  }
+  /* line 679, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page__edit-block {
+    padding-top: 200px;
+    padding-left: 64px;
+  }
+  /* line 684, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__text {
+    width: 300px;
+  }
+  /* line 688, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__main-text h1 {
+    font-size: 70px;
+    line-height: 35px;
+  }
+  /* line 693, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__second-text {
+    bottom: 6px;
+  }
+  /* line 695, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__second-text h2 {
+    font-size: 40px;
+  }
+  /* line 699, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__star {
+    width: 441px;
+    top: -85px;
+    left: -69px;
+  }
+  /* line 707, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-right__img {
+    width: 420px;
+    top: -318px;
+    left: 328px;
+  }
+  /* line 715, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page {
+    min-height: 550px;
+  }
+  /* line 717, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__all-window {
+    padding-right: 35px;
+  }
+  /* line 720, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__star {
+    width: 400px;
+    top: -35px;
+    left: 193px;
+  }
+  /* line 725, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__main-text h1 {
+    font-size: 55px;
+  }
+  /* line 728, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__second-text h2 {
+    font-size: 25px;
+  }
+  /* line 731, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-one {
+    width: 215px;
+    padding-top: 22px;
+  }
+  /* line 735, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-two {
+    width: 215px;
+  }
+  /* line 738, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-three {
+    width: 215px;
+    padding-top: 30px;
+  }
+  /* line 742, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-one {
+    width: 123px;
+    top: 100%;
+    left: 54%;
+  }
+  /* line 747, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-two {
+    top: 100%;
+    left: 50%;
+  }
+  /* line 751, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-three {
+    width: 185px;
+    top: 100%;
+    left: 61%;
+  }
+  /* line 758, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page {
+    min-height: 325px;
+  }
+  /* line 761, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-block {
+    width: 370px;
+    height: 227px;
+  }
+  /* line 765, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-background {
+    width: 370px;
+  }
+  /* line 768, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-people {
+    width: 41px;
+    left: 10px;
+    top: 17px;
+  }
+  /* line 773, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-order {
+    font-size: 26px;
+  }
+  /* line 776, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social {
+    left: 166px;
+    top: 159px;
+  }
+  /* line 779, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item {
+    padding-right: 9px;
+  }
+  /* line 780, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item img {
+    width: 22px;
+  }
+  /* line 786, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description {
+    top: 92%;
+  }
+  /* line 788, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description p {
+    font-size: 10px;
+  }
+  /* line 793, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form {
+    top: 55%;
+    left: 50%;
+  }
+  /* line 796, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form p {
+    font-size: 14px;
+  }
+  /* line 798, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form p input[type='submit'] {
+    font-size: 13px;
+  }
+  /* line 803, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form-send-input {
+    width: 95px;
+    height: 27px;
+  }
+  /* line 808, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form-email {
+    margin-bottom: 13px;
+  }
+  /* line 813, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-block {
+    padding-left: 24px;
+  }
+  /* line 817, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-one {
+    width: 350px;
+    top: -31px;
+    right: 41px;
+  }
+  /* line 822, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-two {
+    width: 115px;
+    top: 130px;
+    left: 78px;
+  }
+  /* line 828, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text {
+    padding-right: 50px;
+  }
+  /* line 830, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-main {
+    font-size: 40px;
+  }
+  /* line 833, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-second {
+    font-size: 25px;
+  }
+  /* line 836, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-third {
+    font-size: 40px;
+  }
+  /* line 843, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .all-form-input {
+    width: 253px;
+    height: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 851, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .container {
+    width: 540px;
+  }
+  /* line 855, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu {
+    height: 72px;
+  }
+  /* line 857, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list {
+    right: 0px;
+  }
+  /* line 860, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__img {
+    width: 50px;
+  }
+  /* line 863, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__container {
+    width: 540px;
+  }
+  /* line 866, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__header {
+    padding-top: 13px;
+    padding-left: 18px;
+  }
+  /* line 870, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item {
+    display: none;
+    padding-top: 32px;
+  }
+  /* line 873, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item:last-child {
+    display: block;
+    padding-right: 18px;
+    padding-top: 22px;
+  }
+  /* line 878, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item a {
+    font-size: 18px;
+  }
+  /* line 883, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page {
+    min-height: 500px;
+    margin-bottom: 90px;
+  }
+  /* line 886, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page__edit-block {
+    padding-top: 160px;
+  }
+  /* line 890, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__text {
+    width: 430px;
+  }
+  /* line 894, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__main-text h1 {
+    font-size: 100px;
+    line-height: 50px;
+  }
+  /* line 899, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__second-text {
+    bottom: 2px;
+  }
+  /* line 901, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__second-text h2 {
+    font-size: 50px;
+  }
+  /* line 905, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__star {
+    width: 549px;
+    top: -93px;
+    left: -81px;
+  }
+  /* line 913, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-right__img {
+    display: none;
+    width: 420px;
+    top: 0px;
+    left: 0px;
+  }
+  /* line 922, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page {
+    min-height: 900px;
+  }
+  /* line 924, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__center-text {
+    margin-bottom: 20px;
+  }
+  /* line 927, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__all-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  /* line 933, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__star {
+    width: 400px;
+    top: -35px;
+    left: 72px;
+  }
+  /* line 938, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__main-text h1 {
+    font-size: 55px;
+  }
+  /* line 941, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__second-text h2 {
+    font-size: 25px;
+  }
+  /* line 944, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-one {
+    width: 215px;
+    padding-top: 22px;
+  }
+  /* line 948, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-two {
+    width: 215px;
+  }
+  /* line 951, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-three {
+    width: 215px;
+    padding-top: 30px;
+  }
+  /* line 955, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-one {
+    width: 123px;
+    top: 100%;
+    left: 54%;
+  }
+  /* line 960, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-two {
+    top: 100%;
+    left: 50%;
+  }
+  /* line 964, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-three {
+    width: 185px;
+    top: 100%;
+    left: 61%;
+  }
+  /* line 971, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page {
+    min-height: 500px;
+  }
+  /* line 973, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  /* line 979, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-wrapper {
+    padding-left: 0px;
+  }
+  /* line 982, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-block {
+    width: 420px;
+    height: 247px;
+  }
+  /* line 986, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-background {
+    width: 420px;
+  }
+  /* line 989, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-people {
+    width: 45px;
+    left: 17px;
+    top: 10px;
+  }
+  /* line 994, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-order {
+    font-size: 28px;
+  }
+  /* line 997, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social {
+    left: 197px;
+    top: 159px;
+  }
+  /* line 1000, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item {
+    padding-right: 9px;
+  }
+  /* line 1001, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item img {
+    width: 25px;
+  }
+  /* line 1007, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description {
+    top: 89.5%;
+  }
+  /* line 1009, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description p {
+    font-size: 11px;
+  }
+  /* line 1014, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form {
+    top: 52%;
+    left: 50%;
+  }
+  /* line 1018, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form p input[type='submit'] {
+    font-size: 15px;
+  }
+  /* line 1023, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form-send-input {
+    width: 103px;
+    height: 27px;
+  }
+  /* line 1030, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right__wrapper {
+    margin-bottom: 40px;
+  }
+  /* line 1033, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-block {
+    padding-left: 24px;
+  }
+  /* line 1037, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-one {
+    width: 320px;
+    top: -27px;
+    right: 13px;
+  }
+  /* line 1042, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-two {
+    display: none;
+    width: 115px;
+    top: 130px;
+    left: 78px;
+  }
+  /* line 1048, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-three {
+    display: block;
+    padding-top: 7px;
+    padding-left: 83px;
+  }
+  /* line 1054, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text {
+    padding-right: 0px;
+  }
+  /* line 1056, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-main {
+    font-size: 40px;
+  }
+  /* line 1059, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-second {
+    font-size: 25px;
+  }
+  /* line 1062, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-third {
+    font-size: 40px;
+  }
+  /* line 1069, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .all-form-input {
+    width: 253px;
+    height: 27px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 1077, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .container {
+    width: 320px;
+  }
+  /* line 1081, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu {
+    height: 72px;
+  }
+  /* line 1082, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list {
+    right: 0px;
+  }
+  /* line 1086, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__img {
+    width: 50px;
+  }
+  /* line 1089, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__container {
+    width: 320px;
+  }
+  /* line 1092, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__header {
+    padding-top: 13px;
+    padding-left: 0px;
+  }
+  /* line 1096, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item {
+    display: none;
+    padding-top: 32px;
+  }
+  /* line 1099, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item:last-child {
+    display: block;
+    padding-right: 0px;
+    padding-top: 22px;
+  }
+  /* line 1104, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__list-item a {
+    font-size: 18px;
+  }
+  /* line 1109, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__mobile-nav-container {
+    width: 320px;
+  }
+  /* line 1112, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__mobile-block {
+    padding: 21px 0px 0 0;
+  }
+  /* line 1115, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .nav-menu__mobile-star {
+    position: absolute;
+    top: -9px;
+    left: -62px;
+    width: 364px;
+    z-index: -1;
+  }
+  /* line 1124, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page {
+    min-height: 650px;
+    margin-bottom: 90px;
+  }
+  /* line 1127, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page__edit-block {
+    padding-left: 0px;
+    display: flex;
+    padding-top: 205px;
+  }
+  /* line 1133, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__text {
+    width: 323px;
+  }
+  /* line 1137, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__main-text h1 {
+    font-size: 75px;
+    line-height: 40px;
+  }
+  /* line 1142, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__second-text {
+    bottom: 2px;
+  }
+  /* line 1144, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__second-text h2 {
+    font-size: 50px;
+  }
+  /* line 1148, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-left__star {
+    width: 489px;
+    top: -100px;
+    left: -84px;
+  }
+  /* line 1156, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .one-page-right__img {
+    display: none;
+    width: 420px;
+    top: 0px;
+    left: 0px;
+  }
+  /* line 1165, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page {
+    min-height: 900px;
+  }
+  /* line 1167, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__center-text {
+    margin-bottom: 30px;
+  }
+  /* line 1170, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__all-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  /* line 1175, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__all-window p {
+    font-size: 18px;
+  }
+  /* line 1179, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__star {
+    width: 353px;
+    top: -37px;
+    left: -15px;
+  }
+  /* line 1184, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__main-text h1 {
+    font-size: 50px;
+  }
+  /* line 1187, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__second-text h2 {
+    font-size: 22px;
+  }
+  /* line 1190, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-one {
+    width: 215px;
+  }
+  /* line 1193, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-two {
+    width: 215px;
+  }
+  /* line 1196, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__img-three {
+    width: 215px;
+  }
+  /* line 1199, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-one {
+    width: 123px;
+    top: 100%;
+    left: 54%;
+  }
+  /* line 1204, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-two {
+    top: 100%;
+    left: 50%;
+  }
+  /* line 1208, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .two-page__description-text-three {
+    width: 185px;
+    top: 100%;
+    left: 61%;
+  }
+  /* line 1215, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page {
+    min-height: 500px;
+  }
+  /* line 1217, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  /* line 1223, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-wrapper {
+    padding-left: 0px;
+  }
+  /* line 1226, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-block {
+    width: 315px;
+    height: 250px;
+  }
+  /* line 1230, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-background {
+    width: 315px;
+  }
+  /* line 1233, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-people {
+    width: 23px;
+    left: 6px;
+    top: 32px;
+  }
+  /* line 1238, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-order {
+    font-size: 27px;
+  }
+  /* line 1241, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social {
+    left: 149px;
+    top: 161px;
+  }
+  /* line 1244, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item {
+    padding-right: 9px;
+  }
+  /* line 1245, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-social-item img {
+    width: 24px;
+  }
+  /* line 1251, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description {
+    top: 89.5%;
+  }
+  /* line 1253, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__left-description p {
+    font-size: 10px;
+  }
+  /* line 1258, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form {
+    top: 52%;
+    left: 50%;
+  }
+  /* line 1262, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form p input[type='submit'] {
+    font-size: 13px;
+  }
+  /* line 1267, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__form-send-input {
+    width: 103px;
+    height: 27px;
+  }
+  /* line 1274, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right__wrapper {
+    margin-bottom: 40px;
+  }
+  /* line 1277, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-block {
+    padding-left: 0px;
+  }
+  /* line 1281, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-one {
+    width: 320px;
+    top: -27px;
+    right: 13px;
+  }
+  /* line 1286, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-two {
+    display: none;
+    width: 115px;
+    top: 130px;
+    left: 78px;
+  }
+  /* line 1292, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-img-three {
+    display: block;
+    padding-top: 7px;
+    padding-left: 87px;
+  }
+  /* line 1298, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text {
+    padding-right: 0px;
+  }
+  /* line 1300, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-main {
+    font-size: 40px;
+  }
+  /* line 1303, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-second {
+    font-size: 25px;
+  }
+  /* line 1306, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .three-page__right-text-third {
+    font-size: 40px;
+  }
+  /* line 1313, ../../../../../Users/sl1ppyklay/console-web-1/public/scss/style.scss */
+  .all-form-input {
+    width: 250px;
+    height: 27px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

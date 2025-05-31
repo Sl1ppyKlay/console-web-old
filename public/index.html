@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Podkova&family=Rubik+Mono+One&family=Rampart+One&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="shortcut icon"
+            href="./icons/favicion.ico"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>CONSOLE-WEB | Главная страница</title>
+    </head>
+    <body>
+        <!-- меню (нав) -->
+        <div class="nav-menu nav-position">
+            <!-- пк меню -->
+            <div class="nav-menu__container">
+                <header class="nav-menu__header">
+                    <a
+                        ><img
+                            class="nav-menu__img"
+                            src="./icons/logo.svg"
+                            alt="логотип"
+                    /></a>
+                </header>
+                <nav class="nav-menu__nav">
+                    <ul class="nav-menu__list">
+                        <li class="nav-menu__list-item" id="menu_pc_project">
+                            <a>Проекты</a>
+                        </li>
+                        <li class="nav-menu__list-item" id="menu_pc_order">
+                            <a>Заказать</a>
+                        </li>
+                        <li class="nav-menu__list-item" id="menu_open">
+                            <a
+                                ><img src="./icons/button_menu.svg" alt="меню"
+                            /></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- мобилка меню -->
+
+            <div class="nav-menu__mobile mobile-background">
+                <div class="nav-menu__mobile-nav-container">
+                    <div class="nav-menu__mobile-block">
+                        <a
+                            ><img
+                                class="nav-menu__mobile-img"
+                                id="menu_close"
+                                src="./icons/close_button-mobile.svg"
+                                alt="логотип"
+                        /></a>
+                    </div>
+                    <ul class="nav-menu__mobile-list">
+                        <img
+                            class="nav-menu__mobile-star"
+                            src="./icons/star_menu-mobile.svg"
+                            alt="звезды"
+                        />
+                        <li
+                            class="nav-menu__mobile-list-item"
+                            id="menu_mobile_project"
+                        >
+                            <a>Проекты</a>
+                            <hr class="nav-menu__mobile-list-item-one-line" />
+                        </li>
+                        <li
+                            class="nav-menu__mobile-list-item"
+                            id="menu_mobile_order"
+                        >
+                            <a>Заказать</a>
+                            <hr class="nav-menu__mobile-list-item-two-line" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Основная часть -->
+        <section class="main-background">
+            <main>
+                <!-- 1-я страница -->
+                <section class="one-page one-page-left one-page-right">
+                    <div class="container">
+                        <!-- Левая часть -->
+                        <div class="one-page__edit-block">
+                            <div class="one-page-left__wrapper">
+                                <!-- ТЕКСТ -->
+                                <div class="one-page-left__text">
+                                    <div class="one-page-left__main-text">
+                                        <h1>
+                                            <span>РАЗРА</span>&nbsp;<span
+                                                >БОТКА</span
+                                            >
+                                        </h1>
+                                    </div>
+                                    <div class="one-page-left__second-text">
+                                        <h2>проектов</h2>
+                                    </div>
+                                </div>
+                                <!-- ЗВЕЗДЫ -->
+                                <img
+                                    class="one-page-left__star"
+                                    src="./icons/star_main-section.svg"
+                                    alt="звезды"
+                                />
+                            </div>
+                            <!-- Правая часть -->
+                            <div class="one-page-right__wrapper">
+                                <img
+                                    class="one-page-right__img"
+                                    src="./icons/people_main-section.svg"
+                                    alt="человек"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2-я страница -->
+                <section class="two-page two-page-background">
+                    <div class="container">
+                        <!-- Обертка -->
+                        <div class="two-page__wrapper">
+                            <!-- ТЕКСТ -->
+                            <div class="two-page__center-text">
+                                <div class="two-page__main-text">
+                                    <h1>ПРОЕКТЫ</h1>
+                                </div>
+                                <div class="two-page__second-text">
+                                    <h2>которые выполняем</h2>
+                                </div>
+                            </div>
+                            <!-- ЗВЕЗДЫ -->
+                            <img
+                                class="two-page__star"
+                                src="./icons/star_second-section.svg"
+                                alt="звезды"
+                            />
+                            <!-- КАРТИНКИ -->
+                            <div class="two-page__all-window">
+                                <div class="two-page__one-window">
+                                    <img
+                                        class="two-page__img-one"
+                                        src="./icons/picture_tg-bot.svg"
+                                        alt="телеграм бот"
+                                    />
+                                    <p class="two-page__description-text-one">
+                                        Телеграм бот
+                                    </p>
+                                </div>
+                                <div class="two-page__two-window">
+                                    <img
+                                        class="two-page__img-two"
+                                        src="./icons/picture_site.svg"
+                                        alt="сайт"
+                                    />
+                                    <p class="two-page__description-text-two">
+                                        САЙТ
+                                    </p>
+                                </div>
+                                <div class="two-page__three-window">
+                                    <img
+                                        class="two-page__img-three"
+                                        src="./icons/picture_python-script.svg"
+                                        alt="питон скрипт"
+                                    />
+                                    <p class="two-page__description-text-three">
+                                        PYTHON скрипт
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="two-page__description-text">
+                            </div> -->
+                        </div>
+                    </div>
+                </section>
+                <!-- 3-я страница -->
+                <section class="three-page three-page-backround" id="order">
+                    <div class="container">
+                        <div class="three-page__wrapper">
+                            <!-- Левая часть -->
+                            <div class="three-page__left-wrapper">
+                                <!-- блок -->
+                                <div class="three-page__left-block">
+                                    <img
+                                        class="three-page__left-background"
+                                        src="./icons/background_order.svg"
+                                        alt="фон"
+                                    />
+                                    <img
+                                        class="three-page__left-people"
+                                        src="./icons/people.svg"
+                                        alt="человечек"
+                                    />
+                                    <!-- текст -->
+                                    <p class="three-page__left-order">
+                                        Заказать
+                                    </p>
+                                    <form
+                                        id="feedback-form"
+                                        class="three-page__form"
+                                    >
+                                        <div class="three-page__form-name">
+                                            <input
+                                                class="three-page__form-name-input all-form-input"
+                                                type="text"
+                                                placeholder="Имя"
+                                                name="name"
+                                                required
+                                            />
+                                        </div>
+
+                                        <div class="three-page__form-email">
+                                            <input
+                                                class="three-page__form-email-input all-form-input"
+                                                type="email"
+                                                placeholder="Почта"
+                                                name="email"
+                                                required
+                                            />
+                                        </div>
+
+                                        <div class="three-page__form-send">
+                                            <button
+                                                class="three-page__form-send-input"
+                                                type="submit"
+                                            >
+                                                Отправить
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="three-page__left-social">
+                                        <a
+                                            class="three-page__left-social-item"
+                                            href="#"
+                                            ><img src="./icons/vk.svg" alt="вк"
+                                        /></a>
+                                        <a
+                                            class="three-page__left-social-item"
+                                            href=""
+                                            ><img
+                                                src="./icons/telegram.svg"
+                                                alt="телеграм"
+                                        /></a>
+                                        <a
+                                            class="three-page__left-social-item"
+                                            href="#"
+                                            ><img
+                                                src="./icons/instagram.svg"
+                                                alt="инстаграм"
+                                        /></a>
+                                    </div>
+                                    <div class="three-page__left-description">
+                                        <p>
+                                            Вы можете использовать один из
+                                            четырёх способов связи с нами -
+                                            через почту (мы отпишемся сами) или
+                                            же через vkontakte, telegram,
+                                            instagram!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Правая часть -->
+                            <div class="three-page__right-wrapper">
+                                <div class="three-page__right-block">
+                                    <div class="three-page__right-text">
+                                        <h1 class="three-page__right-text-main">
+                                            ВЫПОЛНЯЕМ
+                                        </h1>
+                                        <h2
+                                            class="three-page__right-text-second"
+                                        >
+                                            ВАШИ
+                                        </h2>
+                                        <h1
+                                            class="three-page__right-text-third"
+                                        >
+                                            ПРОЕКТЫ
+                                        </h1>
+                                    </div>
+                                    <img
+                                        class="three-page__right-img-one"
+                                        src="./icons/star_three-section.svg"
+                                        alt="звезды"
+                                    />
+                                    <img
+                                        class="three-page__right-img-two"
+                                        src="./icons/arrow_three-section.svg"
+                                        alt="стрелка"
+                                    />
+                                    <img
+                                        class="three-page__right-img-three"
+                                        src="./icons/arrow_767min.svg"
+                                        alt="стрелка"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- футер -->
+            <footer>
+                <p>© console-web.ru</p>
+            </footer>
+        </section>
+        <script src="js/menu.js"></script>
+        <script src="js/mail.js"></script>
+    </body>
+</html>
